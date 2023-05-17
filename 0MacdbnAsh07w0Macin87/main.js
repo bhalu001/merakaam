@@ -35,8 +35,8 @@
 });
 
  $("#footer").fadeIn('slow')
-.css({bottom:0,position:'absolute'})
-.animate({bottom:0}, 800, function() {
+.css({top:752,position:'absolute'})
+.animate({top:685}, 800, function() {
     //callback
 });
 $(document).ready(function() {
